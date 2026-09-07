@@ -1,0 +1,5 @@
+numpy>=1.24,<3
+PyYAML>=6.0
+requests>=2.31
+pytesseract>=0.3.10
+
