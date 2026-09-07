@@ -1,0 +1,21 @@
+source: 0
+camera:
+  width: 1280
+  height: 720
+  fps: 30
+detector:
+  mode: contour
+  model_path: models/license_plate_detector.onnx
+  confidence: 0.45
+ocr:
+  language: eng
+  min_confidence: 45
+events:
+  cooldown_seconds: 10
+  webhook_url: ""
+storage:
+  database: data/anpr.db
+  captures: data/captures
+  save_images: true
+display: true
+
